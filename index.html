@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uncover the Truth | Everyday Picks Featured Selection</title>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600;800&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-red: #b91c1c;
+            --navy-dark: #0f172a;
+            --bg-smoke: #f8fafc;
+            --border-light: #e2e8f0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-smoke);
+            color: #1e293b;
+            line-height: 1.6;
+        }
+
+        /* Top Header Button - Brand Identity */
+        .brand-header {
+            background: white;
+            border-bottom: 1px solid var(--border-light);
+            padding: 12px 20px;
+            display: flex;
+            justify-content: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .main-site-btn {
+            text-decoration: none;
+            color: var(--navy-dark);
+            font-weight: 700;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            border: 2px solid var(--navy-dark);
+            padding: 8px 24px;
+            border-radius: 4px;
+            transition: 0.3s ease;
+        }
+
+        .main-site-btn:hover {
+            background: var(--navy-dark);
+            color: white;
+        }
+
+        /* Content Container */
+        .sales-container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            border-top: 6px solid var(--primary-red);
+        }
+
+        /* Headline Styling */
+        .headline-section {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .alert-label {
+            color: var(--primary-red);
+            font-weight: 800;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-family: 'Crimson Pro', serif;
+            font-size: 36px;
+            color: var(--navy-dark);
+            line-height: 1.1;
+            margin: 0;
+        }
+
+        /* Product Image Box */
+        .product-visual {
+            text-align: center;
+            margin: 35px 0;
+            padding: 20px;
+            background: #f1f5f9;
+            border-radius: 12px;
+        }
+
+        .product-visual img {
+            max-width: 350px;
+            width: 100%;
+            filter: drop-shadow(0 15px 25px rgba(0,0,0,0.15));
+        }
+
+        /* The "Hooks" List */
+        .bullets {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 40px;
+        }
+
+        .bullets li {
+            padding: 15px 0 15px 40px;
+            position: relative;
+            border-bottom: 1px solid #f1f5f9;
+            font-size: 17px;
+        }
+
+        .bullets li::before {
+            content: "✓";
+            position: absolute;
+            left: 10px;
+            color: #16a34a;
+            font-weight: 900;
+            font-size: 20px;
+        }
+
+        /* Call to Action Box */
+        .cta-box {
+            background: #fffbeb;
+            border: 2px solid #fde68a;
+            padding: 40px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .pricing {
+            margin-bottom: 20px;
+        }
+
+        .old-price { text-decoration: line-through; color: #94a3b8; font-size: 20px; margin-right: 10px; }
+        .new-price { color: var(--primary-red); font-weight: 800; font-size: 42px; }
+
+        .buy-button {
+            display: inline-block;
+            background: #f59e0b;
+            background: linear-gradient(180deg, #fbbf24 0%, #f59e0b 100%);
+            color: #000;
+            text-decoration: none;
+            width: 100%;
+            max-width: 400px;
+            padding: 22px;
+            border-radius: 8px;
+            font-size: 22px;
+            font-weight: 800;
+            box-shadow: 0 4px 0 #b45309;
+            transition: all 0.1s ease;
+            text-transform: uppercase;
+        }
+
+        .buy-button:active {
+            transform: translateY(3px);
+            box-shadow: none;
+        }
+
+        .discreet-footer {
+            margin-top: 25px;
+            font-size: 13px;
+            color: #64748b;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .sales-container { padding: 20px; margin: 10px; }
+            h1 { font-size: 28px; }
+            .buy-button { font-size: 18px; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="brand-header">
+        <a href="https://every-day-picks.github.io/All-picks/" class="main-site-btn">
+            View All Top Daily Picks
+        </a>
+    </nav>
+
+    <main class="sales-container">
+        <div class="headline-section">
+            <span class="alert-label">Urgent Report for Partners</span>
+            <h1>A Scientific Method to Know if They are Cheating (In Less Than 7 Days)</h1>
+        </div>
+
+        <div class="product-visual">
+            <img src="https://lixtle.com/wp-content/uploads/2023/08/how-to-catch-mockup-1.jpg" alt="How To Catch A Cheating Partner Guide">
+        </div>
+
+        <p style="font-size: 18px; text-align: center; color: #475569;">
+            Don't stay in the dark. Stop the anxiety and obtain the proof you need without hiring expensive private investigators.
+        </p>
+
+        <ul class="bullets">
+            <li><strong>Digital Evidence:</strong> How to obtain social media and email login details without leaving a trace.</li>
+            <li><strong>The "Lover" Strategy:</strong> Unmask the identity of the third party in less than 15 days.</li>
+            <li><strong>Phone Interception:</strong> Techniques to save private messages (WhatsApp, Telegram) before they're deleted.</li>
+            <li><strong>Body Language:</strong> 10 scientifically proven indicators that reveal if your partner is lying to your face.</li>
+        </ul>
+
+        <div class="cta-box">
+            <div class="pricing">
+                <span class="old-price">$67</span>
+                <span class="new-price">$27</span>
+            </div>
+
+            <a href="https://www.digistore24.com/redir/511624/Everyday-picks/" class="buy-button">
+                Get Instant Access Now
+            </a>
+
+            <div class="discreet-footer">
+                🔒 <strong>100% Discreet Billing:</strong> Charges will appear as "Digistore24"<br>
+                Instant Download • Works on All Mobile & Desktop Devices
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
